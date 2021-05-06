@@ -54,8 +54,8 @@ def filejson(f0, Lambda0, s):
 
 def graf_freq(f, p):
   plt.plot(f, p)
-  plt.ylabel('RCS')
-  plt.xlabel('freq')
+  plt.ylabel('RCS, [$м*м$]')
+  plt.xlabel('freq, [Гц]')
   plt.grid()
   plt.show()
 
